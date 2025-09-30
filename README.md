@@ -22,9 +22,9 @@ python cenario2.py
 python cenario3.py
 ```
 
-2. **Script Principal** (rode nesse):
+2. **Script Principal**:
 ```bash
-# Executar todos os cenários
+# Executar todos os cenários (USE ESTE)
 python main.py
 
 # Executar cenário específico
