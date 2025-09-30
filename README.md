@@ -45,5 +45,5 @@ python main.py todos # Todos os cenários
 ### Cenário 3: Dijkstra
 - Grafo com pesos não-negativos e necessidade de caminho ótimo de um único ponto de origem
 
-## Comparativo do pseudo código 
-- Comparativo entre os psudo códigos no livro e implementados no arquivo comparativo_algoritmo.md
+## Comparativo do pseudocódigo 
+- Análise lado a lado dos algoritmos apresentados no livro versus as implementações práticas desenvolvidas no projeto. O arquivo `comparativo_algoritmo.md`
