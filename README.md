@@ -46,4 +46,4 @@ python main.py todos # Todos os cenários
 - Grafo com pesos não-negativos e necessidade de caminho ótimo de um único ponto de origem
 
 ## Comparativo do pseudocódigo 
-- Análise lado a lado dos algoritmos apresentados no livro versus as implementações práticas desenvolvidas no projeto. O arquivo `comparativo_algoritmo.md`
+- Análise lado a lado dos algoritmos apresentados no livro versus as implementações práticas desenvolvidas no projeto no arquivo `comparativo_algoritmo.md`.
