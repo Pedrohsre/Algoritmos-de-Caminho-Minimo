@@ -34,16 +34,16 @@ python main.py 3    # Apenas cenário 3
 python main.py todos # Todos os cenários
 ```
 
-## Algoritmos Utilizados
+## Motivação
 
 ### Cenário 1: Floyd-Warshall
-- Necessário calcular distâncias de todos os vértices para todos os outros para determinar a estação central
+- Precisamos calcular distâncias entre TODOS os pares de vértices para comparar qual é o melhor candidato a estação central. Floyd-Warshall resolve o problema "todos-para-todos" em uma única execução.
 
 ### Cenário 2: Bellman-Ford
-- O grafo possui arestas com pesos negativos (regeneração de energia)
+- O grafo possui arestas NEGATIVAS (regeneração de energia). Dijkstra não funciona com pesos negativos, mas Bellman-Ford foi projetado especificamente para isso.
 
 ### Cenário 3: Dijkstra
-- Grafo com pesos não-negativos e necessidade de caminho ótimo de um único ponto de origem
+- Todos os custos são não-negativos e precisamos apenas de um caminho origem→destino. Dijkstra é o mais eficiente para esse caso.
 
 ## Comparativo do pseudocódigo 
 - Análise lado a lado dos algoritmos apresentados no livro versus as implementações práticas desenvolvidas no projeto no arquivo `comparativo_algoritmo.md`.
